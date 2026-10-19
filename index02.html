@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Controle de Tarefas</title>
+    <link rel="stylesheet" type="text/css" href="style04.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Controle de Tarefas</h1>
+    </header>
+
+    <nav> <!--Dentro do 'nav' somente o menu!-->
+       <a href="" target="_blank">Incício</a>
+       <a href="" target="_blank">Perfil</a>
+       <a href="" target="_blank">Tarefas</a>
+       <a href="" target="_blank">Contatos</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Minhas Tarefas:</h2>
+            <article><!--Toda notícia nova, utiliza um artigo(article)-->
+               <p>
+                  <form>
+            <label for="task"></label>
+            
+            <input type="text" id="taskTitle" placeholder="Digite o Tarefa" required>
+            <br></br>
+            
+            <input type="date" placeholder="Formate a data" required>
+            
+            <br></br>
+            
+            <button type="submit" id="btnSave">Adicionar Tarefa</button>
+            <button type="button" id="btnCancel" class="hidden">Cancelar Tarefa</button>
+            
+            <br></br>
+            
+            <button type="submit" id="btnLogout">Sair</button>
+
+            </article>
+            
+            <div class="form-group">       
+
+           <footer>
+           <p>Sistema de Controle de Tarefas</p>
+           </footer>
+
+        </section> 
+
+     </main>
+     
+    <script src="script.js"></script>
+   </body>
+</html> 
